@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer base {
+  a {
+    @apply hover:bg-black hover:text-white;
+  }
+  nav a {
+    @apply hover:bg-white hover:text-black;
+  }
+}
+
